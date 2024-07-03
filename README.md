@@ -1,1 +1,13 @@
-# Wuthering-Waves-Fps-Unlocker
+# 鸣潮120FPS解锁器
+## 介绍
+基于C#的鸣潮帧率解锁器，可以解锁鸣潮的帧率到120FPS。
+## 原理
+通过修改鸣潮本地的数据库配置文件，将帧率限制修改为120FPS。
+## 使用方法
+	1. 打开程序，选择数据库文件路径
+	2. 输入你想要的帧率（1-120）
+	3. 点击解锁按钮
+	4. 启动游戏
+## 如何找到数据库文件
+	1. 打开鸣潮安装目录，以WeGame版为例，一般在%你的安装磁盘%\WeGameApps\Wuthering Waves
+	2. 进入\Client\Saved\LocalStorage目录，找到名为localStorage.db的文件
