@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.10.35004.147
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Wuthering-Waves-Fps-Unlocker", "Wuthering-Waves-Fps-Unlocker.csproj", "{1C18244E-3178-4304-A158-635BD3887B41}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{1C18244E-3178-4304-A158-635BD3887B41}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1C18244E-3178-4304-A158-635BD3887B41}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1C18244E-3178-4304-A158-635BD3887B41}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1C18244E-3178-4304-A158-635BD3887B41}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {7096DFE5-A6F3-40DF-8086-680D362FC479}
+	EndGlobalSection
+EndGlobal
