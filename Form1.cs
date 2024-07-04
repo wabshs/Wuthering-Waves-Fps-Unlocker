@@ -10,6 +10,8 @@ namespace Wuthering_Waves_Fps_Unlocker
             InitializeComponent();
         }
 
+     
+
         private void connect_db(string dbPath)
         {
             string connectionString = $"Data Source={dbPath};";
@@ -113,11 +115,26 @@ namespace Wuthering_Waves_Fps_Unlocker
                                 updateCommand.ExecuteNonQuery();
                             }
                             MessageBox.Show("修改成功！请打开游戏查看！");
-       
+
                         }
                     }
                 }
             }
+        }
+
+        private void label4_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void toolTip1_Popup(object sender, PopupEventArgs e)
+        {
+
+        }
+
+        private void label4_Click_1(object sender, EventArgs e)
+        {
+
         }
     }
 }

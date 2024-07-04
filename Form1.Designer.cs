@@ -28,6 +28,8 @@
         /// </summary>
         private void InitializeComponent()
         {
+            components = new System.ComponentModel.Container();
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Form1));
             label1 = new Label();
             textBox1 = new TextBox();
             button1 = new Button();
@@ -35,6 +37,8 @@
             textBox2 = new TextBox();
             label3 = new Label();
             button2 = new Button();
+            toolTip1 = new ToolTip(components);
+            label4 = new Label();
             SuspendLayout();
             // 
             // label1
@@ -99,11 +103,33 @@
             button2.UseVisualStyleBackColor = true;
             button2.Click += button2_Click;
             // 
+            // toolTip1
+            // 
+            toolTip1.AutomaticDelay = 100;
+            toolTip1.AutoPopDelay = 0;
+            toolTip1.InitialDelay = 100;
+            toolTip1.ReshowDelay = 20;
+            toolTip1.ToolTipIcon = ToolTipIcon.Info;
+            toolTip1.ToolTipTitle = "以WeGame版为例";
+            toolTip1.Popup += toolTip1_Popup;
+            // 
+            // label4
+            // 
+            label4.AutoSize = true;
+            label4.Location = new Point(12, 159);
+            label4.Name = "label4";
+            label4.Size = new Size(128, 17);
+            label4.TabIndex = 7;
+            label4.Text = "不会寻找数据库文件？";
+            toolTip1.SetToolTip(label4, "一般在  %你的安装磁盘% \\WeGameApps\\rail_apps\\Wuthering Waves\\Client\\Saved\\LocalStorage下。\r\n有一个localstorage.db文件。官方启动器应该也大差不差");
+            label4.Click += label4_Click_1;
+            // 
             // Form1
             // 
             AutoScaleDimensions = new SizeF(7F, 17F);
             AutoScaleMode = AutoScaleMode.Font;
             ClientSize = new Size(542, 206);
+            Controls.Add(label4);
             Controls.Add(button2);
             Controls.Add(label3);
             Controls.Add(textBox2);
@@ -111,7 +137,9 @@
             Controls.Add(button1);
             Controls.Add(textBox1);
             Controls.Add(label1);
+            Icon = (Icon)resources.GetObject("$this.Icon");
             Name = "Form1";
+            StartPosition = FormStartPosition.CenterScreen;
             Text = "鸣潮120FPS解锁器";
             ResumeLayout(false);
             PerformLayout();
@@ -126,5 +154,7 @@
         private TextBox textBox2;
         private Label label3;
         private Button button2;
+        private ToolTip toolTip1;
+        private Label label4;
     }
 }

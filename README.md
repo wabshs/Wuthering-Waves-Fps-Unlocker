@@ -9,8 +9,8 @@
 	3. 点击解锁按钮
 	4. 启动游戏
 ## 如何找到数据库文件
-	1. 打开鸣潮安装目录，以WeGame版为例，一般在%你的安装磁盘%\WeGameApps\Wuthering Waves （官方版应该也大差不差）
-	2. 进入\Client\Saved\LocalStorage目录，找到名为localStorage.db的文件，如下图所示
+	1. 打开鸣潮安装目录，以WeGame版为例，一般在\WeGameApps\rail_apps\Wuthering Waves\Client\Saved\LocalStorage下（官方版应该也大差不差）
+	2. 此文件夹下的LocalStorage.db即为数据库文件
 
 ![路径示例图](example.png)
 
